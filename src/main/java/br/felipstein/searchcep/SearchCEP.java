@@ -26,7 +26,7 @@ public class SearchCEP extends Application {
 		primaryStage.show();
 		this.primaryStage = primaryStage;
 		instance = this;
-		System.out.println("Controller: " + controller + ", nulo? " + (controller == null));
+		System.out.println("Controller: " + controller);
 	}
 	
 	public Stage getStage() {
