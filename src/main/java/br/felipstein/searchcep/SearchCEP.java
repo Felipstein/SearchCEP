@@ -19,14 +19,14 @@ public class SearchCEP extends Application {
 		FXMLLoader fxml = new FXMLLoader(getClass().getResource("/Root.fxml"));
 		Parent root = fxml.load();
 		this.controller = fxml.getController();
-		System.out.println("Controller: " + controller);
-		primaryStage.setTitle("Busca do Felipe por CEP");
+		primaryStage.setTitle("Busca por CEP");
 		primaryStage.getIcons().add(new Image("/cafe.png"));
 		primaryStage.setResizable(false);
 		primaryStage.setScene(new Scene(root));
 		primaryStage.show();
 		this.primaryStage = primaryStage;
 		instance = this;
+		System.out.println("Controller: " + controller + ", nulo? " + (controller == null));
 	}
 	
 	public Stage getStage() {
