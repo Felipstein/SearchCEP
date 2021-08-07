@@ -20,7 +20,7 @@ public class SearchCEP extends Application {
 		Parent root = fxml.load();
 		this.controller = fxml.getController();
 		System.out.println("Controller: " + controller);
-		primaryStage.setTitle("Busca por CEP");
+		primaryStage.setTitle("Busca do Felipe por CEP");
 		primaryStage.getIcons().add(new Image("/cafe.png"));
 		primaryStage.setResizable(false);
 		primaryStage.setScene(new Scene(root));
